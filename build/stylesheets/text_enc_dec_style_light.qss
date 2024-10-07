@@ -1,0 +1,209 @@
+/* Style 2 - Stylesheet for Txt_enc_Dec - Theme 2 */
+
+
+
+/* Main window */
+QWidget {
+    background-color: #FFFFFF; /* White */
+}
+
+/* Title Label*/
+#title_label {
+    font-family: Arial;
+    font-size: 16px;
+    color: #FFFFFF; /* White */
+    background-color: #000000; /* Black */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+}
+
+/* Keyword label */
+#keyword_label {
+    font-family: RalewayBI;
+    color: #FFFFFF; /* White */
+    background-color: #507A94; /* Black */
+}
+
+/* Keyword entry */
+#keyword_entry {
+    color: #000000; /* White */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF; /* White */
+    padding: 6px;
+}
+#keyword_entry:disabled {
+    background-color: #D6D6D6; /* Black */
+    border: 1px solid #737373;
+    color: #737373; /* White */
+}
+
+/* Frame 1_1 */
+#frame_1_1 {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 2px solid #000000;
+}
+
+/* Frame 1_1_2_rsa_keys */
+#frame_1_1_2_rsa_keys {
+    border-radius: 9px;
+    background-color: #507A94; /* Black */
+    border: 2px solid #000000;
+    padding: 5px;
+}
+
+/* RSA keys label */
+#rsa_keys_label {
+    color: #FFFFFF; /* White */
+    background-color: #507A94; /* Black */
+    padding: 0px;
+}
+
+/* Browse private key button */
+#browse_private_key_button {
+    color: #FFFFFF; /* White */
+    background-color: #324C5C; /* White */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    padding: 0px;
+}
+#browse_private_key_button:disabled {
+    background-color: #D6D6D6; /* Black */
+    border: 1px solid #737373;
+    color: #737373; /* White */
+}
+
+/* Browse public key button */
+#browse_public_key_button {
+    color: #FFFFFF; /* White */
+    background-color: #324C5C; /* White */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    padding: 0px;
+}
+#browse_public_key_button:disabled {
+    background-color: #D6D6D6; /* Black */
+    border: 1px solid #737373;
+    color: #737373; /* White */
+}
+
+
+/* Generate key button */
+#generate_key_button {
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+    border-radius: 9px;
+    border: 3px solid #324C5C;
+
+}
+#generate_key_button:hover {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    color: #FFFFFF; /* White */
+}
+
+/* Encode button */
+#encode_button {
+    background-color: #FFFFFF; /* White */
+    border-radius: 9px;
+    border: 3px solid #324C5C;
+    color: #000000; /* White */
+}
+#encode_button:hover {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    color: #FFFFFF; /* White */
+}
+
+/* Decode button */
+#decode_button {
+    background-color: #FFFFFF; /* White */
+    border-radius: 9px;
+    border: 3px solid #324C5C;
+    color: #000000; /* Black */
+}
+#decode_button:hover {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    color: #FFFFFF; /* White */
+}
+
+/* Plain text entry */
+#plain_text_entry {
+    color: #000000; /* White */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF; /* White */
+}
+/*Plain text entry label */
+#plain_text_label {
+    color: #FFFFFF; /* White */
+    background-color: #507A94; /* Black */
+}
+
+/* Encoded text entry */
+#encoded_text_entry {
+    color: #000000; /* White */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF; /* White */
+}
+/* Encoded text entry label */
+#encoded_text_label {
+    color: #FFFFFF; /* White */
+    background-color: #507A94; /* Black */
+}
+
+/* Radio button 1 */
+#radio_button_1 {
+    color: #FFFFFF; /* White */
+    background-color: #507A94; /* Black */
+}
+/* Radio button 2 */
+#radio_button_2 {
+    color: #FFFFFF; /* White */
+    background-color: #507A94; /* Black */
+}
+/* Radio button 3 */
+#radio_button_3 {
+    color: #FFFFFF; /* White */
+    background-color: #507A94; /* Black */
+}
+
+
+/* Frame 2_1 */
+
+#frame_2_1 {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: #FFFFFF; /* White */
+}
+
+/* Frame 2_2 */
+#frame_2_2 {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: #FFFFFF; /* White */
+}
+
+/* Radio group box */
+#radio_grp_box {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: #FFFFFF; /* White */
+}
+
+#reset_button {
+    background-color: #324C5C; /* White */
+    border-radius: 9px;
+    border: 3px solid #0000000;
+    color: #FFFFFF; /* Black */
+}

@@ -1,0 +1,129 @@
+/*stylesheet for home page - style2-light   */
+/*---------------------------------------------*/
+
+/* main window */
+
+
+QWidget {
+    background-color: #FFFFFF;
+}
+#outer_frame {
+    background-color: #507A94;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+#stacked_widget {
+    background-color: #507A94;
+    border:none;
+}
+
+/*arrows*/
+#left_arrow, #right_arrow {
+    background-color: #324C5C;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#left_arrow:disabled, #right_arrow:disabled {
+    background-color: #7297ad;
+    color: #737373;
+    border: 1px solid #737373;
+    border-radius: 10px;
+}
+
+/*stacked box1*/
+#stacked_box1{
+    background-color: #324C5C;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    color: #FFFFFF;
+
+}
+#page_frame2,#page_frame3,#page_frame4,#page_frame5,#page_frame6{
+    background-color: #507A94;
+    border: 1px solid #507A94;
+    border-radius: 9px;
+    color: #FFFFFF;
+
+}
+#logo_label {
+    background-color: #FFFFFF;
+    border: 1px solid #507A94;
+    border-radius: 9px;
+}
+
+#description_label{
+    background-color: #324C5C;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding:10px;
+}
+#description_label2 {
+    background-color: #507A94;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#description_label3,#description_label4,#description_label5,#description_label6 {
+    background-color: #507A94;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+#description_para {
+    background-color: #324C5C;
+    color: #FFFFFF;
+    font-size: 18px;
+    border: 1px solid #324C5C;
+    border-radius: 9px;
+    padding: 10px;
+
+}
+#description_para2 {
+    background-color: #324C5C;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: medium;
+    line-height: 25px;
+    border: 1px solid #000000;
+    border-radius: 9px;
+    padding: 10px;
+    }
+
+#description_para3,#description_para4,#description_para5,#description_para6 {
+    background-color: #324C5C;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: medium;
+    border: 2px solid #000000;
+    border-radius: 9px;
+}
+
+QScrollBar:vertical {
+    background-color: #324C5C;
+    width: 20px; /* Width of the scrollbar */
+    margin: 0px;
+    border: 1px solid #324C5C;
+    border-radius: 9px;
+}
+QScrollBar::handle:vertical {
+    background-color: #FFFFFF; /* Color of the handle */
+    min-height: 20px; /* Minimum height of the handle */
+    border: 1px solid #324C5C;
+    border-radius: 9px;
+
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical,
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: #324C5C; /* Match scrollbar background color */
+}
+

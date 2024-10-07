@@ -1,0 +1,188 @@
+/* Style 1 - Stylesheet for Txt_enc_Dec */
+
+/* Main window */
+QWidget {
+    background-color: #ECB365;
+}
+
+/* Title Label*/
+#title_label {
+    color: white;
+    background-color: #04293A;
+    border-radius: 9;
+    border: 1 solid #0000;
+    margin-top: 20px;
+}
+
+/* Keyword label */
+#keyword_label {
+    color: white;
+    background-color: #04293A;
+}
+#keyword_label:disabled {
+    color: 808080;
+}
+
+/* Keyword entry */
+#keyword_entry {
+    color: white;
+    border-radius: 9;
+    border: 1 solid #0000;
+    background-color: #064663;
+    padding: 6px;
+}
+#keyword_entry:disabled {
+    background-color: #3a576c;
+    color: 808080;
+}
+
+/* Frame 1_1 */
+#frame_1_1 {
+    background-color: #04293A;
+    border-radius: 9;
+    border: 1 solid #0000;
+}
+
+/* Frame 1_1_2_rsa_keys */
+#frame_1_1_2_rsa_keys {
+    border-radius: 9;
+    background-color: #04293A;
+    border: 1 solid #0000;
+    padding: 5px;
+}
+
+/* RSA keys label */
+#rsa_keys_label {
+    color: white;
+    background-color: #04293A;
+    padding: 0px;
+}
+#rsa_keys_label:disabled {
+    color: 808080;
+}
+
+/* Browse private key button */
+#browse_private_key_button {
+    color: white;
+    background-color: #064663; /* Set the desired background color */
+    border-radius: 9;
+    border: 1 solid #0000;
+    padding: 0px;
+}
+#browse_private_key_button:disabled {
+    background-color: #3a576c;
+    color: #272b40;
+}
+
+
+/* Browse public key button */
+#browse_public_key_button {
+    color: white;
+    background-color: #064663; /* Set the desired background color */
+    border-radius: 9;
+    border: 1 solid #0000;
+    padding: 0px;
+}
+#browse_public_key_button:disabled {
+    background-color: #3a576c;
+    color: #272b40;
+}
+
+
+
+/* Generate key button */
+#generate_key_button {
+    background-color: #04293A;
+    border-radius: 9;
+    border: 1 solid #0000;
+    color: white;
+}
+
+/* Encode button */
+#encode_button {
+    background-color: #04293A;
+    border-radius: 9;
+    border: 1 solid #0000;
+    color: white;
+}
+
+/* Decode button */
+#decode_button {
+    background-color: #04293A;
+    border-radius: 9;
+    border: 1 solid #0000;
+    color: white;
+}
+
+/* Plain text entry */
+#plain_text_entry {
+    color: white;
+    border-radius: 9;
+    border: 1 solid #0000;
+    background-color: #064663;
+}
+/*Plain text entry label */
+#plain_text_label {
+    color: white;
+    background-color: #04293A;
+}
+
+/* Encoded text entry */
+#encoded_text_entry {
+    color: white;
+    border-radius: 9;
+    border: 1 solid #0000;
+    background-color: #064663;
+}
+/* Encoded text entry label */
+#encoded_text_label {
+    color: white;
+    background-color: #04293A;
+}
+
+/* Radio button 1 */
+#radio_button_1 {
+    color: white;
+    background-color: #04293A;
+}
+/* Radio button 2 */
+#radio_button_2 {
+    color: white;
+    background-color: #04293A;
+}
+/* Radio button 3 */
+#radio_button_3 {
+    color: white;
+    background-color: #04293A;
+}
+
+
+/* Frame 2_1 */
+#frame_2_1 {
+    background-color: #04293A;
+    border-radius: 9;
+    border: 1 solid #0000;
+    color: white;
+}
+
+/* Frame 2_2 */
+#frame_2_2 {
+    background-color: #04293A;
+    border-radius: 9;
+    border: 1 solid #0000;
+    color: white;
+}
+
+/* Radio group box */
+#radio_grp_box {
+    background-color: #04293A;
+    border-radius: 9;
+    border: 1 solid #0000;
+    color: white;
+}
+#reset_button {
+    background-color: #324C5C; /* White */
+    border-radius: 9px;
+    border: 1px solid #0000000;
+    color: #FFFFFF; /* Black */
+}

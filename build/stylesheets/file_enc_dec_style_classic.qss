@@ -1,0 +1,78 @@
+/* Style 1 - Stylesheet for file_enc_dec  */
+
+/* Main window */
+QWidget {
+    background-color: #ECB365;
+}
+
+/* Keyword Entry Frame */
+#keyword_entry_frame {
+    color: white;
+    background-color: #04293A;
+    border-radius: 9px;
+    border: 1px solid #0000;
+}
+#key_input {
+    color: white;
+    background-color: #064663;
+    padding: 6px;
+    border-radius: 9px;
+    border: 1px solid #0000;
+}
+#key_label {
+    background-color: #04293A;
+    color: white;
+    padding: 6px;
+}
+
+/* File Selection Area */
+#file_selection_frame {
+    color: white;
+    background-color: #04293A;
+    border-radius: 9px;
+    border: 1px solid #0000;
+}
+#file_path_label {
+    background-color: #064663;
+    color: white;
+    border-radius: 9px;
+    border: 1px solid #0000;
+    padding: 6px;
+
+}
+#file_label {
+    background-color: #04293A;
+    color: white;
+    border-radius: 9px;
+    border: 1px solid #0000;
+}
+
+
+/* Drop Area */
+#drop_area {
+    background-color: #064663;
+    border-radius: 9px;
+    color: white;
+    border: 1px solid #0000;
+}
+
+#drop_label {
+    background-color: #064663;
+    color: white;
+}
+#file_button {
+    background-color: #04293A;
+    border-radius: 9px;
+    border: 1px solid #0000;
+    color: white;
+}
+
+/* Buttons */
+#generate_key_button,
+#encrypt_button,
+#decrypt_button {
+    color: white;
+    background-color: #04293A;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+}

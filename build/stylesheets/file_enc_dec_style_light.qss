@@ -1,0 +1,83 @@
+/* Style 2 - Stylesheet for file_enc_dec with 'light' color palette */
+
+/* Main window */
+QWidget {
+    background-color: #FFFFFF; /* White */
+}
+
+/* Keyword Entry Frame */
+#keyword_entry_frame {
+    color: #FFFFFF;
+    background-color: #507A94 ; /* Light Blue */
+    border-radius: 9px;
+    border: 2px solid #000000;
+}
+#key_input {
+    color: #000000;
+    background-color: #FFFFFF; /* Light Blue */
+    padding: 6px;
+    border-radius: 9px;
+    border: 1px solid #000000;
+}
+#key_label {
+    background-color: #507A94; /* Light Blue */
+    color: white;
+    padding: 6px;
+}
+
+/* File Selection Area */
+#file_selection_frame {
+    color: white;
+    background-color: #507A94; /* Light Blue */
+    border-radius: 9px;
+    border: 2px solid #000000;
+}
+#file_path_label {
+    background-color: #FFFFFF; /* Light Blue */
+    color: #000000;
+    border-radius: 9px;
+    border: 1px solid #000000;
+    padding: 6px;
+}
+#file_label {
+    background-color: #507A94; /* Light Blue */
+    color: white;
+    border-radius: 9px;
+    border: 1px solid #507A94;
+}
+
+/* Drop Area */
+#drop_area {
+    background-color: #FFFFFF; /* Light Blue */
+    border-radius: 9px;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
+#drop_label {
+    background-color: #FFFFFF; /* Light Blue */
+    color: #000000;
+}
+#file_button {
+    background-color: #324C5C; /* Light Blue */
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: #FFFFFF; /* White */
+}
+
+/* Buttons */
+#generate_key_button,
+#encrypt_button,
+#decrypt_button {
+  background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+    border-radius: 9px;
+    border: 3px solid #324C5C;
+}
+#generate_key_button:hover,
+#encrypt_button:hover,
+#decrypt_button:hover {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    color: #FFFFFF; /* White */}

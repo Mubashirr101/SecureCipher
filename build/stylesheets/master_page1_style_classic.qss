@@ -1,0 +1,69 @@
+/* Style 1 - Stylesheet for master_page1 - Theme 1 */
+
+
+
+/* Main window */
+QWidget {
+    background-color: #ECB365;
+    color: #ecf0f1;
+}
+
+/* Style for button frame */
+#button_frame {
+    background-color: #2c3e50; /* Background color */
+    border-radius: 9px; /* Border radius */
+    border: 4px solid #04293A; /* Border */
+    padding:0px;
+}
+/* Style for button_page1 */
+
+#button_page1{
+    background-color: #2c3e50; /* Background color */
+    border-radius: 9px; /* Border radius */
+    border: 1px solid #0000; /* Border */
+    color: white; /* Text color */
+    font-size: 18px; /* Font size */
+    font-weight: semi bold; /* Font weight */
+}
+#button_page1:checked {
+    background-color: #04293A; /* Background color */
+    border-radius: 9px; /* Border radius */
+    border: 1px solid #0000; /* Border */
+    color: white; /* Text color */
+    font-size: 18px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+#button_page2,#button_page3{
+    background-color: #2c3e50; /* Background color */
+    border-radius: 9px; /* Border radius */
+    border: 1px solid #0000; /* Border */
+    color: white; /* Text color */
+    font-size: 12px; /* Font size */
+    font-weight: semi bold; /* Font weight */
+}
+#button_page2:checked,#button_page3:checked{
+    background-color: #04293A; /* Background color */
+    border-radius: 9px; /* Border radius */
+    border: 1px solid #0000; /* Border */
+    color: white; /* Text color */
+    font-size: 12px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+#button_page4,#button_page5,#button_page6 {
+    background-color: #2c3e50; /* Background color */
+    border-radius: 9px; /* Border radius */
+    border: 1px solid #0000; /* Border */
+    color: white; /* Text color */
+    font-size: 15px; /* Font size */
+    font-weight: semi bold; /* Font weight */
+}
+#button_page4:checked,#button_page5:checked, #button_page6:checked {
+    background-color: #04293A; /* Background color */
+    border-radius: 9px; /* Border radius */
+    border: 1px solid #0000; /* Border */
+    color: white; /* Text color */
+    font-size: 15px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+
+

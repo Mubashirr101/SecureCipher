@@ -1,0 +1,113 @@
+/* style-1  stylesheet for settings page*/
+
+QWidget {
+    background-color: #ECB365;
+}
+#central_widget {
+    background-color: #ECB365;
+    border-radius: 9px;
+    border: 1px solid #ECB365;
+}
+
+#theme_group {
+    background-color: #04293A;
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: white;
+}
+#b1 {
+    background-color: #064663;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#b2 {
+    background-color: #064663;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#contact_group {
+    background-color: #04293A;
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: white;
+    padding: 10px;
+}
+
+#twitter{
+    background-color: #064663;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#email{
+    background-color: #064663;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#email{
+    background-color: #064663;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#contact_label {
+background-color: #04293A;
+    color: white;
+    border: 1px solid #04293A;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#about_group {
+    background-color: #04293A;
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: white;
+    padding: 10px;
+}
+#about_label {
+    background-color: #04293A;
+    color: white;
+    border: 1px solid #04293A;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#about_text {
+    background-color: #04293A;
+    color: white;
+    border: 1px solid #04293A;
+    border-radius: 9px;
+    font-size: 11px;
+    font-weight: medium;
+    line-height: 25px;
+}
+
+#theme_label {
+    background-color: #04293A;
+    color: white;
+    border: 1px solid #04293A;
+    border-radius: 9px;
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,106 @@
+/* style-2  stylesheet for settings page*/
+
+QWidget {
+    background-color: #FFFFFF;
+}
+#central_widget {
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: 2px solid #FFFFFF;
+    color: white;
+}
+
+#theme_group {
+    background-color: #507A94;
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: white;
+}
+#b1 {
+    background-color: #324C5C;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#b2 {
+    background-color: #324C5C;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+#contact_group {
+    background-color: #507A94;
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: white;
+    padding: 20px;
+}
+
+#twitter {
+    background-color: #324C5C;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#email {
+    background-color: #324C5C;
+    color: white;
+    border: 2px solid #000000;
+    border-radius: 9px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#contact_label {
+    background-color: #507A94;
+    color: white;
+    border: 1px solid #507A94;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#about_group {
+    background-color: #507A94;
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: white;
+    padding: 10px;
+}
+#about_label {
+    background-color: #507A94;
+    color: white;
+    border: 1px solid #507A94;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#about_text {
+    background-color: #324C5C;
+    color: white;
+    border: 1px solid #324C5C;
+    border-radius: 9px;
+    font-size: 11px;
+    font-weight: medium;
+    line-height: 25px;
+}
+
+#theme_label {
+    background-color: #507A94;
+    color: white;
+    border: 1px solid #507A94;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: bold;
+}

@@ -1,0 +1,112 @@
+/* Style 2- QSS file for SteganographyPage */
+
+/* Main window */
+QWidget {
+    background-color: #FFFFFF;
+}
+
+/* Image label */
+#image_label {
+    color: #000000;
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+}
+
+/* Select image button */
+#select_image_button {
+    color: #FFFFFF;
+    background-color: #324C5C;
+    border: 1px solid #000000;
+    border-radius: 6px;
+}
+
+/* Embed data button */
+#embed_data_button {
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+    border-radius: 9px;
+    border: 3px solid #324C5C;;
+}
+#embed_data_button:hover {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    color: #FFFFFF; /* White */
+}
+
+/* Extract data button */
+#extract_data_button {
+    background-color: #FFFFFF; /* White */
+    color: #000000; /* Black */
+    border-radius: 9px;
+    border: 3px solid #324C5C;
+}
+#extract_data_button:hover {
+    background-color: #507A94; /* Black */
+    border-radius: 9px;
+    border: 1px solid #000000;
+    color: #FFFFFF; /* White */
+   }
+
+/* Frame input */
+#frame_input {
+    background-color: #507A94;
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: #FFFFFF;
+}
+
+/* Data input label */
+#data_input_label {
+    background-color: #507A94;
+    color: #FFFFFF;
+    padding: 6px;
+}
+
+/* Data input textbox */
+#data_input_textbox {
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: 1px solid #000000;
+}
+
+/* Frame output */
+#frame_output {
+    background-color: #507A94;
+    border-radius: 9px;
+    border: 2px solid #000000;
+    color: #FFFFFF;
+}
+
+#outer_frame {
+    background-color: #507A94;
+    border-radius: 12px;
+    border: 2px solid #000000;
+    color: #FFFFFF;
+}
+
+#frame {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    border: 1px solid #000000;
+    color: #FFFFFF;
+}
+
+/* Output label */
+#output_label {
+    background-color: #507A94;
+    color: #FFFFFF;
+    padding: 6px;
+}
+
+/* Output textbox */
+#output_textbox {
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 9px;
+    border: 1px solid #000000;
+}
+
+
+

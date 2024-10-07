@@ -1,0 +1,114 @@
+/*stylesheet for home page - style1-classic   */
+/*---------------------------------------------*/
+
+/* main window */
+
+
+QWidget {
+    background-color: #ECB365;
+}
+#outer_frame {
+    background-color: #04293A;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+
+#stacked_widget {
+    background-color: #04293A;
+    border:none;
+}
+
+/*arrows*/
+#left_arrow, #right_arrow {
+    background-color: #ECB365;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+#left_arrow:disabled, #right_arrow:disabled {
+    background-color: #9c815c;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+/*stacked box1*/
+#stacked_box1,#page_frame2,#page_frame3,#page_frame4,#page_frame5,#page_frame6{
+    background-color: #064663;
+    border: 1px solid #064663;
+    border-radius: 9px;
+    color: #FFFFFF;
+
+}
+#logo_label {
+    background-color: #FFFFFF;
+    border: 1px solid #04293A;
+    border-radius: 9px;
+}
+
+#description_label{
+    background-color: #064663;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+#description_label2 {
+    background-color: #064663;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#description_label3,#description_label4,#description_label5,#description_label6 {
+    background-color: #064663;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+#description_para {
+    background-color: #064663;
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 10px;
+}
+#description_para2 {
+    background-color: #064663;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: medium;
+    line-height: 25px;
+    border:none;
+}
+#description_para3,#description_para4,#description_para5,#description_para6 {
+    background-color: #04293A;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: medium;
+    border: 1px solid #064663;
+    border-radius: 9px;
+}
+
+QScrollBar:vertical {
+    background-color: rgba(4, 41, 58, 1);
+    width: 20px; /* Width of the scrollbar */
+    margin: 0px;
+    border: 1px solid #04293A;
+    border-radius: 9px;
+}
+QScrollBar::handle:vertical {
+    background-color: #FFFFFF; /* Color of the handle */
+    min-height: 20px; /* Minimum height of the handle */
+    border: 1px solid #04293A;
+    border-radius: 9px;
+
+}
+
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical,
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    background: rgba(4, 41, 58, 1); /* Match scrollbar background color */
+}
+
