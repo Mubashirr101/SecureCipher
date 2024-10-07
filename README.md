@@ -32,7 +32,7 @@ Happy encrypting!! 🔒
 **Password Manager - Vault Page**
 ![Alt text](./img/ss_dark_vault.png)
 
-###Light Theme
+### Light Theme
 
 **Text Encryption/Decryption Page**
 ![Text Encryption/Decryption page in light theme](./img/ss_light_txtencdec.png)
